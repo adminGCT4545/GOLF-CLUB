@@ -131,7 +131,7 @@ const AIChatbot: React.FC = () => {
   // Floating chat button when closed
   if (!isOpen) {
     return (
-      <Tooltip title="Open AI Assistant" placement="left">
+      <Tooltip title="Open KYNSEY AI" placement="left">
         <Fab
           color="primary"
           aria-label="chat"
@@ -188,7 +188,7 @@ const AIChatbot: React.FC = () => {
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
           <AIIcon />
           <Typography variant="h6" component="h2">
-            AI Assistant
+            KYNSEY AI
           </Typography>
           <Chip
             size="small"

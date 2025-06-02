@@ -1,6 +1,6 @@
-# Royal Golf Club AI Chatbot Integration
+# Royal Golf Club KYNSEY AI Chatbot Integration
 
-This document explains the AI chatbot integration that connects to your LM Studio instance at `192.168.0.204:4545`.
+This document explains the KYNSEY AI chatbot integration that connects to your LM Studio instance at `192.168.0.204:4545`.
 
 ## Features
 
@@ -121,10 +121,10 @@ npm start
 
 ```
 User: "What are the club's operating hours?"
-AI: "Royal Golf Club is typically open from 6:00 AM to 8:00 PM daily. However, hours may vary based on season and special events. For the most current information, please contact the pro shop or check with club management."
+KYNSEY AI: "Royal Golf Club is typically open from 6:00 AM to 8:00 PM daily. However, hours may vary based on season and special events. For the most current information, please contact the pro shop or check with club management."
 
 User: "How do I book a tee time?"
-AI: "You can book tee times through several methods: 1) Use the Tee Times section in this portal, 2) Call the pro shop directly, or 3) Use the mobile app. Online booking is available 7 days in advance for members."
+KYNSEY AI: "You can book tee times through several methods: 1) Use the Tee Times section in this portal, 2) Call the pro shop directly, or 3) Use the mobile app. Online booking is available 7 days in advance for members."
 ```
 
 ## API Endpoints
@@ -132,7 +132,7 @@ AI: "You can book tee times through several methods: 1) Use the Tee Times sectio
 ### AI Chat Endpoints
 
 #### POST `/api/v1/ai/chat`
-Chat with the AI assistant.
+Chat with KYNSEY AI assistant.
 
 **Request Body:**
 ```json
@@ -224,7 +224,7 @@ Edit the system prompt in `backend/ai-services/services/llm_service.py`:
 
 ```python
 def _build_system_prompt(self, context=None, user_info=None):
-    base_prompt = """You are an AI assistant for the Royal Golf Club...
+    base_prompt = """You are KYNSEY AI, an AI assistant for the Royal Golf Club...
     
     Add your custom instructions here.
     """

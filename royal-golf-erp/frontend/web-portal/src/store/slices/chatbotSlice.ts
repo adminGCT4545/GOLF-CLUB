@@ -25,7 +25,7 @@ const initialState: ChatbotState = {
   messages: [
     {
       id: 'welcome',
-      content: 'Hello! I\'m your Royal Golf Club AI assistant. I can help you with member services, operations, booking questions, and more. How can I assist you today?',
+      content: 'Hello! I\'m KYNSEY AI, your Royal Golf Club assistant. I can help you with member services, operations, booking questions, and more. How can I assist you today?',
       role: 'assistant',
       timestamp: new Date(),
     }

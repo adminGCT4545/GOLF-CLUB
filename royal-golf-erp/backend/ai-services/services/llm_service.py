@@ -150,7 +150,7 @@ class LMStudioService:
     def _build_system_prompt(self, context: List[Dict[str, Any]] = None, user_info: Dict[str, Any] = None) -> str:
         """Build system prompt with context and user information"""
         
-        base_prompt = """You are an AI assistant for the Royal Golf Club, a premium golf club management system. 
+        base_prompt = """You are KYNSEY AI, an AI assistant for the Royal Golf Club, a premium golf club management system. 
 You help with member services, operations, financial matters, and maintenance issues.
 
 Key Guidelines:
@@ -159,7 +159,10 @@ Key Guidelines:
 - If you don't have enough information, ask clarifying questions
 - Always prioritize member satisfaction and club efficiency
 - Use golf industry terminology appropriately
-- Be concise but thorough in your responses"""
+- Be concise but thorough in your responses
+- IMPORTANT: Do not show your thinking process or use <think> tags - provide only your final answer
+- Never display internal reasoning, analysis steps, or thought processes
+- Respond directly with the information requested without showing how you arrived at the answer"""
 
         # Add user context
         if user_info:
