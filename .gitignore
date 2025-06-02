@@ -26,3 +26,22 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Markdown files (except README files)
+*.md
+ROYAL_GOLF_CLUB_C/royal-golf-erp/backend/api-gateway && npm start*/README.md
+ROYAL_GOLF_CLUB_C/royal-golf-erp/backend/api-gateway && npm start*/readme.md
+ROYAL_GOLF_CLUB_C/royal-golf-erp/backend/api-gateway && npm start*/Readme.md
